@@ -41,7 +41,6 @@ pip install git+https://github.com/deadboizxc/monkeygram_patch.git
 Method to edit a long message. First, make sure to import `monkeygram_patch` in your script:
 
 ```python
-import monkeygram_patch
 from pyrogram import Client
 from pyrogram.types import Message
 from typing import List, Optional
@@ -80,7 +79,6 @@ client.run(main())
 Method to send a long message. Ensure that `monkeygram_patch` is imported at the beginning of your script:
 
 ```python
-import monkeygram_patch
 from pyrogram import Client
 
 async def send_long_message(
